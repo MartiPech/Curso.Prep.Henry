@@ -10,7 +10,16 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
-  var tutu = 123
+ // let p = Object.getOwnPropertyNames(objeto);
+ // let lista = [];
+ // for(var i = 0; i < p.length ;i++ ){
+  //  lista.push(p[i],objeto[p[i]])
+
+ // }
+ // return lista; 
+ 
+ let p = Object.entries(objeto);
+ return p ; 
 }
 
 
